@@ -1,9 +1,9 @@
 const Carro = {
 	tamTanque: 150, 		
-	kilometro_Litro: 0.5,  	
+	kilometro_Litro: 1,  	
 	radio_llanta: 25, 		
 	color: 'negro',  		
-	encendido: true,		
+	encendido: true,	
 	combustible: 60,  	    
 	metros_Llantas: 0,		
 	aceleracion: 0,		    
