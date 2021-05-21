@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom';
 //Hoja de Estilos
 import './index.css'
 
-const saludo = <h1>hola desde app fundamentos react</h1>;
+//Comonentes Creados
+import ContadorApp from './ContadorApp';
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(saludo, divRoot);
+ReactDOM.render(<ContadorApp valor_contador = {0} /> , divRoot);
